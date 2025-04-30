@@ -1,0 +1,130 @@
+{
+  "sessions": [
+    {
+      "id": 1745330882249,
+      "date": "4/22/2025",
+      "result": "Defeat",
+      "yourTeam": [
+        {
+          "name": "bulbasaur",
+          "types": [
+            "grass",
+            "poison"
+          ],
+          "hp": 45,
+          "atk": 49,
+          "def": 49,
+          "speed": 45,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+        }
+      ],
+      "enemyTeam": [
+        {
+          "name": "ivysaur",
+          "types": [
+            "grass",
+            "poison"
+          ],
+          "hp": 60,
+          "atk": 62,
+          "def": 63,
+          "speed": 60,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png"
+        }
+      ],
+      "battles": [
+        {
+          "round": 1,
+          "message": "Enemy's ivysaur defeated your bulbasaur (Not very effective...)",
+          "winner": {
+            "id": 2,
+            "name": "ivysaur",
+            "hp": 60,
+            "atk": 62,
+            "def": 63,
+            "speed": 60,
+            "types": [
+              "grass",
+              "poison"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+            "level": 50
+          },
+          "loser": {
+            "id": 1,
+            "name": "bulbasaur",
+            "hp": 45,
+            "atk": 49,
+            "def": 49,
+            "speed": 45,
+            "types": [
+              "grass",
+              "poison"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+            "level": 50
+          },
+          "attacker": {
+            "name": "ivysaur",
+            "types": [
+              "grass",
+              "poison"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png"
+          },
+          "defender": {
+            "name": "bulbasaur",
+            "types": [
+              "grass",
+              "poison"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+          },
+          "damage": 1,
+          "effectiveness": 0.25,
+          "remainingHP": 44
+        }
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "sessionId": "9kddwekhy",
+      "myTeam": [
+        {
+          "id": 1,
+          "name": "bulbasaur",
+          "hp": 45,
+          "atk": 49,
+          "def": 49,
+          "speed": 45,
+          "types": [
+            "grass",
+            "poison"
+          ],
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+          "level": 50
+        }
+      ],
+      "enemyTeam": [
+        {
+          "id": 2,
+          "name": "ivysaur",
+          "hp": 60,
+          "atk": 62,
+          "def": 63,
+          "speed": 60,
+          "types": [
+            "grass",
+            "poison"
+          ],
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+          "level": 50
+        }
+      ],
+      "timestamp": "2025-04-22T14:08:01.092Z",
+      "id": "a603"
+    }
+  ],
+  "favorites": []
+}
